@@ -1,0 +1,13 @@
+{
+  "archive": "binsonic-terra-cpanel-with-vendor.zip",
+  "files": 6304,
+  "no_local_secrets": true,
+  "no_runtime_storage_data": true,
+  "production_vendor_boot": true,
+  "config_route_view_cache": true,
+  "production_login_http_status": 200,
+  "alternative_index_entrypoint": true,
+  "alternative_public_manifest": true,
+  "database_used": false,
+  "result": "passed"
+}

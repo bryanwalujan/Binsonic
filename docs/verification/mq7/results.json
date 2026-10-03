@@ -1,0 +1,26 @@
+{
+  "database": "binsonic_terra_testing",
+  "checks": [
+    {
+      "state": "empty",
+      "backendState": "waiting",
+      "direction": null,
+      "mobileOverflow": false
+    },
+    {
+      "state": "increasing",
+      "backendState": "available",
+      "direction": "increasing",
+      "mobileOverflow": false
+    },
+    {
+      "state": "gap",
+      "backendState": "insufficient",
+      "direction": null,
+      "mobileOverflow": false
+    }
+  ],
+  "consoleErrors": [],
+  "polling": "completed",
+  "fixturesOnly": true
+}

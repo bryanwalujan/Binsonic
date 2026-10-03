@@ -1,0 +1,17 @@
+{
+  "event_id": "portenta01-boot7-reading001",
+  "captured_at": "2026-10-03T08:00:00+08:00",
+  "weight_calibrated": false,
+  "weight_g": null,
+  "loadcell_raw": 4724,
+  "moisture_adc": 556,
+  "wet_contact": false,
+  "metal_detected": null,
+  "sensor_status": {
+    "audio": "unavailable",
+    "vision": "unavailable",
+    "loadcell": "uncalibrated",
+    "moisture": "ok",
+    "metal": "unavailable"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "target": "http://127.0.0.1:8000",
+  "run": "1791038702",
+  "checks": [
+    {
+      "type": "binsonic sensor reading",
+      "http_statuses": [
+        "200",
+        "200",
+        "201"
+      ]
+    },
+    {
+      "type": "binsonic",
+      "operation": "--save-payload",
+      "http_statuses": [
+        "200",
+        "200",
+        "201"
+      ]
+    },
+    {
+      "type": "binsonic",
+      "operation": "--replay",
+      "http_statuses": [
+        "200",
+        "200",
+        "200"
+      ]
+    },
+    {
+      "type": "terra",
+      "operation": "--save-payload",
+      "http_statuses": [
+        "200",
+        "200",
+        "201"
+      ]
+    },
+    {
+      "type": "terra",
+      "operation": "--replay",
+      "http_statuses": [
+        "200",
+        "200",
+        "200"
+      ]
+    }
+  ],
+  "real_total_before": 0,
+  "real_total_after": 0,
+  "simulation_total_before": 1,
+  "simulation_total_after": 2,
+  "device_ids": {
+    "binsonic": 3,
+    "terra": 4
+  },
+  "offline_after_seconds": 67,
+  "browser_polling_kept_running": true,
+  "test_tokens_revoked": true,
+  "result": "passed"
+}

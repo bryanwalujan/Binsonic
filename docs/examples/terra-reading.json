@@ -1,0 +1,14 @@
+{
+  "reading_id": "terra01-boot7-reading001",
+  "captured_at": "2026-10-03T08:00:00+08:00",
+  "temperature_c": 32.5,
+  "thermocouple_ok": true,
+  "mq7_adc": 412,
+  "mq7_voltage": null,
+  "mq7_voltage_basis": null,
+  "adc_resolution_bits": 12,
+  "sensor_status": {
+    "thermocouple": "ok",
+    "mq7": "uncalibrated"
+  }
+}

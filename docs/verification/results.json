@@ -1,0 +1,25 @@
+{
+  "binsonic": {
+    "heartbeat_http": 200,
+    "event_id": "9abec6b3-38ec-4aa1-abe9-ded283c78aa8",
+    "before": 0,
+    "after_insert": 1,
+    "after_replay": 1,
+    "replay_http": 200,
+    "real_count": 0
+  },
+  "terra": {
+    "heartbeat_http": 200,
+    "event_id": "41a46be4-d47d-4c9d-8554-f0688f858dee",
+    "before": 0,
+    "after_insert": 1,
+    "after_replay": 1,
+    "replay_http": 200,
+    "real_count": 0
+  },
+  "heartbeat_stopped_epoch": 1790918171.046366,
+  "browser_online_verified": true,
+  "browser_offline_verified": true,
+  "offline_elapsed_seconds": 62,
+  "browser_errors": []
+}
